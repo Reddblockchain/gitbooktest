@@ -2,7 +2,7 @@
 
 **Steps to set the interest rate according to the APY changes in smart contracts\(Only Owner\).**
 
-1. Smart contract function ‘setRate’ ok needs to be invoked in order to set the interest rate and this can be done only by the contract owner. - “_**function setRate\(uint256 rate\_\) public onlyOwner{}**_”
+1. Smart contract function ‘setRate’ needs to be invoked in order to set the interest rate and this can be done only by the contract owner. - “_**function setRate\(uint256 rate\_\) public onlyOwner{}**_”
 
 2. setRate function takes one uint64 variable input and this is the new interest rate to be used multiplied by 100.
 
